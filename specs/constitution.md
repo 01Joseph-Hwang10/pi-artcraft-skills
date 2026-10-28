@@ -20,6 +20,10 @@ new entry in `specs/changes/`.
   in as ports; local fixes must land upstream first, then be ported here.
 - Every port records its upstream tag and commit in `NOTICE.md` (Port
   provenance). Updating the port without updating that record is forbidden.
+- The npm package version equals the upstream tag it was ported from
+  (`v<version>`), which is the single source of truth. Re-publishing with a
+  version that has no upstream tag, or updating the port without bumping the
+  version to the new upstream tag, is forbidden.
 
 ## 3. Upstream respect (fail closed)
 
