@@ -1,0 +1,44 @@
+{
+  "name": "pi-artcraft-skills",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Thirteen evidence-verified Pi skills for the ArtCraft creative suite — teach the Pi coding agent to drive the ArtCraft apps through their headless CLI, MCP server and JSON control channel.",
+  "license": "MIT",
+  "author": "Joseph Hwang",
+  "keywords": [
+    "pi-package",
+    "pi-skills",
+    "pi",
+    "artcraft",
+    "skills",
+    "agent-skills",
+    "photocraft",
+    "lightcraft",
+    "vectorcraft",
+    "figcraft",
+    "designcraft",
+    "wordcraft",
+    "deckcraft",
+    "gridcraft",
+    "pdfcraft",
+    "effectcraft",
+    "filmcraft",
+    "soundcraft",
+    "cadcraft"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/01Joseph-Hwang10/pi-artcraft-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/01Joseph-Hwang10/pi-artcraft-skills/issues"
+  },
+  "homepage": "https://github.com/01Joseph-Hwang10/pi-artcraft-skills#readme",
+  "files": [
+    "skills",
+    "README.md",
+    "NOTICE.md",
+    "LICENSE-MIT",
+    "LICENSE-APACHE"
+  ]
+}
